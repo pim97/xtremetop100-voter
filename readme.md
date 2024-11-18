@@ -22,12 +22,9 @@ An automated voting script for XtremeTop100 gaming server listings using Scrappe
 ## Installation 🛠️
 
 1. Clone the repository:
-bash
-git clone https://github.com/yourusername/xtremetop100-voter.git
-cd xtremetop100-voter
+git clone https://github.com/pim97/xtremetop100-voter.git
 
 2. Install dependencies:
-bash
 npm install
 
 3. Configure your Scrappey API key:
@@ -47,7 +44,6 @@ npm install
 ## Usage 🚀
 
 Run the script using:
-bash
 node xtremetop100.js
 
 ## Configuration ⚙️
