@@ -36,6 +36,7 @@ async function run() {
      */
     const session = await scrappey.createSession({
         // proxy: 'http://user:pass@ip:port' //Optional, if you want to use a specific proxy
+        "cloudflareBypass": true
     })
 
     const site = 1126084465;
