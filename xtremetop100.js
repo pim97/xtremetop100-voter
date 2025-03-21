@@ -21,6 +21,10 @@ async function run() {
             },
             {
                 "type": "solve_captcha",
+                "captcha": "turnstile"
+            },
+            {
+                "type": "solve_captcha",
                 "captcha": "hcaptcha",
                 "captchaData": {
                     "sitekey": "dcd2efd8-43d4-41bc-8e54-50682e8a8faa"
@@ -37,6 +41,14 @@ async function run() {
             {
                 "type": "click",
                 "cssSelector": "[name='ticki']"
+            },
+            {
+                "type": "execute_js",
+                "code": "document.querySelector(\"div[style*='display: grid;']\")?.setAttribute(\"style\", \"width: fit-content; margin: 0 auto;\");"
+            },
+            {
+                "type": "solve_captcha",
+                "captcha": "turnstile"
             }
         ]
     })
