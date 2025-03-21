@@ -12,7 +12,7 @@ const scrappey = new Scrappey(SCRAPPEY_API_KEY);
 
 async function run() {
 
-    const product = await scrappey.get{
+    const product = await scrappey.get({
         "url": "https://www.xtremetop100.com/in.php?site=1132322794",
         "browserActions": [
             {
