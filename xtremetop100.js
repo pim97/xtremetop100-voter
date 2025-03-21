@@ -16,12 +16,12 @@ async function run() {
         "url": "https://www.xtremetop100.com/in.php?site=1132322794",
         "browserActions": [
             {
-                "type": "wait_for_selector",
-                "cssSelector": "[name='ticki']"
-            },
-            {
                 "type": "solve_captcha",
                 "captcha": "turnstile"
+            },
+            {
+                "type": "wait_for_selector",
+                "cssSelector": "[name='ticki']"
             },
             {
                 "type": "solve_captcha",
