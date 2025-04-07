@@ -50,7 +50,8 @@ async function run() {
                         "type": "solve_captcha",
                         "captcha": "recaptchav2",
                         "captchaData": {
-                            "sitekey": "6Le7mwwbAAAAAKIGqjAy7l6mjqyvMQydDF2WI8-2"
+                            "sitekey": "6Le7mwwbAAAAAKIGqjAy7l6mjqyvMQydDF2WI8-2",
+                            "fast": true
                         }
                     },
                     {
