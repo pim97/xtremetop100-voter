@@ -4,6 +4,8 @@
 
 An automated voting script for XtremeTop100 gaming server listings using Scrappey's anti-detection browser technology. This tool helps automate the voting process while handling captchas and security checks. 🚀
 
+## We will no longer maintain this script, looking for votes? Check out [Toplistbot](https://discord.gg/WhuKCs6jqz)
+
 ## Features ✨
 
 - Automated voting system
