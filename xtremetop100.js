@@ -12,7 +12,7 @@ const scrappey = new Scrappey(SCRAPPEY_API_KEY);
 
 async function run() {
 
-    //Deprecated
+    // The rest such as captcha's, proxies etc is handles rest magically behind the scenes
     const product = await scrappey.get({
         "cmd": "request.get",
         "url": "https://www.xtremetop100.com/in.php?site=1132375983"
