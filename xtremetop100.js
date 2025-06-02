@@ -1,8 +1,4 @@
 const Scrappey = require('scrappey-wrapper');
-const qs = require('qs');
-
-const readline = require('readline');
-const fs = require('fs');
 
 // Replace the following details with your own details
 const SCRAPPEY_API_KEY = 'API_KEY';
